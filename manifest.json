@@ -1,0 +1,17 @@
+{
+    "name": "hello world",
+    "container": "python",
+    "pre_processing_stage": "bash lookaround.sh",
+    "execution_stage": "python pi.py",
+    "post_processing_stage": "ls",
+    "slurm_input_rules": {
+        "time": {
+            "max": 10,
+            "min": 5,
+            "default_value": 5,
+            "step": 1,
+            "unit": "Minutes"
+        }
+    },
+    "require_upload_data": false
+}

@@ -14,5 +14,5 @@
         }
     },
     "require_upload_data": false,
-    "supported_hpc": ["keeling_community", "expanse_community", "anvil_community", "bridges_community_gpu"],
+    "supported_hpc": ["keeling_community", "expanse_community", "anvil_community", "bridges_community_gpu"]
 }
